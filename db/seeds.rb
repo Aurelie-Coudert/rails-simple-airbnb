@@ -5,3 +5,34 @@
 #
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
+Flat.create!(
+  name: 'Light & Spacious Garden Flat London',
+  address: '10 Clifton Gardens London W9 1DT',
+  description: 'A lovely summer feel for this spacious garden flat. Two double bedrooms, open plan living area, large kitchen and a beautiful conservatory',
+  price_per_night: 75,
+  number_of_guests: 3
+)
+
+Flat.create!(
+  name: 'Superbe appartement avec vue imprenable sur la mer',
+  address: '50 Avenue de Bonne Source 44380 Pornichet',
+  description: 'Nous louons notre magnifique appartement T3 face mer de 58m² entièrement refait à neuf.',
+  price_per_night: 150,
+  number_of_guests: 5
+)
+
+Flat.create!(
+  name: 'Appartement 85m² piscine+ spa +sauna + vue sur lac',
+  address: 'Chemin du Goulet 73470 Novalaise',
+  description: "Venez profiter d'un superbe point de vue sur le lac d'Aiguebelette.",
+  price_per_night: 196,
+  number_of_guests: 2
+)
+
+Flat.create!(
+  name: 'Chalet cosy au coeur du Haut-Jura  ',
+  address: 'Chemin du creux noir 39220 Prémanon',
+  description: 'Ce charmant petit chalet a été rénové récemment pour plus de confort.',
+  price_per_night: 70,
+  number_of_guests: 4
+)
